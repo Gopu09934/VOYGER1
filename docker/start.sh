@@ -163,10 +163,10 @@ if [ -n "${PANEL_IMAGE_URLS:-}" ]; then
     IFS=',' read -ra PANEL_IMAGE_URLS_ARR <<< "$PANEL_IMAGE_URLS"
 else
     PANEL_IMAGE_URLS_ARR=(
-        "https://github.com/Gopu09934/solar/releases/download/as/sun1.jpg"
-        "https://github.com/Gopu09934/solar/releases/download/as/earth1.jpg"
-        "https://github.com/Gopu09934/solar/releases/download/as/sun2.jpg"
-        "https://github.com/Gopu09934/solar/releases/download/as/earth2.jpg"
+        "https://github.com/Gopu09934/VOYGER1/releases/download/f/PIA23645_PaleBlueDotRevisited_1600.jpg"
+        "https://github.com/Gopu09934/VOYGER1/releases/download/f/PIA23645_PaleBlueDotRevisited_1600.jpg"
+        "https://github.com/Gopu09934/VOYGER1/releases/download/f/PIA23645_PaleBlueDotRevisited_1600.jpg"
+        "https://github.com/Gopu09934/VOYGER1/releases/download/f/PIA23645_PaleBlueDotRevisited_1600.jpgg"
     )
 fi
 PANEL_IMAGE_LOCAL_FILES=()
